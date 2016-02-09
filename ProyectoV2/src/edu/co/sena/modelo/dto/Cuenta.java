@@ -5,14 +5,15 @@
  */
 package edu.co.sena.modelo.dto;
 
-import java.sql.Date;
-
 /**
  *
- * @author ADSI - 901540
+ * @author Usuario
  */
-public class RegistroEquipo {
+public class Cuenta {
+    int usuario_numero_documento;
+    int  usuario_tipo_documento;    
+    String password;
 
-    Date fechaEntrada;
+ 
     
 }
